@@ -1,13 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?compositeMetadataRepository version='1.0.0'?>
 <repository name='GWT Eclipse Plugin'
-    type='org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository'
-    version='1.0.0'>
-  <properties size='1'>
-    <property name='p2.timestamp' value='1665755219001'/>
-  </properties>
-  <children size='2'>
-    <child location='https://plugins.gwtproject.org/eclipse/gwt-eclipse-plugin/latest'/>
-    <child location='https://plugins.gwtproject.org/eclipse/gwt-sdk-plugins/latest'/>
-  </children>
+            type='org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository'
+            version='1.0.0'>
+    <properties size='1'>
+        <property name='p2.timestamp' value='1665755219001'/>
+    </properties>
+    <children size='2'>
+        <child location='https://plugins.gwtproject.org/eclipse/gwt-eclipse-plugin/latest'/>
+        <child location='https://plugins.gwtproject.org/eclipse/gwt-sdk-plugins/2.8.2'/>
+        <child location='https://plugins.gwtproject.org/eclipse/gwt-sdk-plugins/2.9.0'/>
+        <child location='https://plugins.gwtproject.org/eclipse/gwt-sdk-plugins/2.10.0'/>
+        <child location='https://plugins.gwtproject.org/eclipse/gwt-sdk-plugins/2.10.1'/>
+        <child location='https://plugins.gwtproject.org/eclipse/gwt-sdk-plugins/2.11.0'/>
+        <child location='https://plugins.gwtproject.org/eclipse/gwt-sdk-plugins/2.12.0'/>
+        <child location='https://plugins.gwtproject.org/eclipse/gwt-sdk-plugins/2.12.1'/>
+        <child location='https://plugins.gwtproject.org/eclipse/gwt-sdk-plugins/2.12.2'/>
+    </children>
 </repository>
+
